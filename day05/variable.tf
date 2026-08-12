@@ -6,11 +6,11 @@ variable "environment" {
 variable "allowed_locations" {
     type = list(string)
     description = "list of allowed locations"
-    default = [ "West Europe", "North Europe" , "East US" ]
+    default = [ "UK South", "North Europe" , "East US" ]
   
 }
 variable "location" {
-  default = "West Europe"
+  default = "UK South"
   type = string
   
 }
@@ -37,7 +37,7 @@ variable "allowed_vm_sizes" {
 }
 variable "storage_account_name" {
   type = set(string)
-  default = [ "techtutorials11", "techtutorials12" ]
+  default = [ "techtutorials1101", "techtutorials1102" ]
 
   
 }
